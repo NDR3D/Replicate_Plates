@@ -1,0 +1,22 @@
+name: Fetch anatomical reference plates
+# Manual run (Actions tab -> Run workflow). Downloads plates from Wikimedia with a
+# compliant User-Agent and commits them to /plates. Serve via:
+#   https://raw.githubusercontent.com/<owner>/<repo>/main/plates/<file>
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download plates
+        run: bash download_plates.sh
+      - name: Commit
+        run: |
+          git config user.name "plate-bot"
+          git config user.email "plate-bot@users.noreply.github.com"
+          git add plates
+          git commit -m "Add/update reference plates" || echo "no changes"
+          git push
