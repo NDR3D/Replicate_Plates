@@ -1,0 +1,373 @@
+{
+  "name": "Medical Visualization — Anatomical Reference Library",
+  "purpose": "Auto-generated from the plates/ folder by rebuild_manifest.py. Authoritative index of available reference plates for Replicate input_images. '(3D render)' rows are anatomically-correct 3D-model renders (preferred); others are atlas detail plates.",
+  "usage": "Attach a plate's attach_url in input_images (1-3 max), matching layer+view. Prompt: 'use the attached reference as ground truth for anatomy/count/proportions; ignore labels; re-render in glass style.'",
+  "convention": "Standard whole-system views are BASE/<system>_<view>.png with system in {skeleton,rib_cage,muscles,nerves,organs,vessels} and view in {front,back,side}={anterior,posterior,lateral}.",
+  "base_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates",
+  "self_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/reference_library.json",
+  "hosting_note": "Self-hosted public repo NDR3D/Replicate_Plates. Edit plates/ then run sync_plates.bat (regenerates this file + pushes). Never use commons.wikimedia.org links (403 to Replicate).",
+  "count": 36,
+  "plates": [
+    {
+      "slot": "rib_cage_front",
+      "layer": "skeleton",
+      "view": "anterior",
+      "description": "Rib cage — anterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/rib_cage_front.png"
+    },
+    {
+      "slot": "skeleton_front",
+      "layer": "skeleton",
+      "view": "anterior",
+      "description": "Skeleton — anterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/skeleton_front.png"
+    },
+    {
+      "slot": "rib_cage_back",
+      "layer": "skeleton",
+      "view": "posterior",
+      "description": "Rib cage — posterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/rib_cage_back.png"
+    },
+    {
+      "slot": "skeleton_back",
+      "layer": "skeleton",
+      "view": "posterior",
+      "description": "Skeleton — posterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/skeleton_back.png"
+    },
+    {
+      "slot": "rib_cage_side",
+      "layer": "skeleton",
+      "view": "lateral",
+      "description": "Rib cage — lateral (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/rib_cage_side.png"
+    },
+    {
+      "slot": "skeleton_side",
+      "layer": "skeleton",
+      "view": "lateral",
+      "description": "Skeleton — lateral (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/skeleton_side.png"
+    },
+    {
+      "slot": "hand_bones",
+      "layer": "skeleton",
+      "view": "anterior",
+      "description": "Hand bones — carpals/metacarpals/phalanges",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Scheme_human_hand_bones-en.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/hand_bones.png"
+    },
+    {
+      "slot": "lower_limb_bones",
+      "layer": "skeleton",
+      "view": "anterior",
+      "description": "Lower limb bones — femur/tibia/fibula",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Human_leg_bones_labeled.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/lower_limb_bones.png"
+    },
+    {
+      "slot": "upper_limb_bones",
+      "layer": "skeleton",
+      "view": "anterior",
+      "description": "Upper limb bones — humerus/radius/ulna/hand",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Human_arm_bones_diagram.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/upper_limb_bones.png"
+    },
+    {
+      "slot": "foot_bones",
+      "layer": "skeleton",
+      "view": "lateral",
+      "description": "Foot bones — lateral",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:202111_Lateral_view_of_bones_of_right_foot.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/foot_bones.png"
+    },
+    {
+      "slot": "skull_lateral",
+      "layer": "skeleton",
+      "view": "lateral",
+      "description": "Skull — lateral",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_(bones).svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/skull_lateral.png"
+    },
+    {
+      "slot": "vertebral_column_lateral",
+      "layer": "skeleton",
+      "view": "lateral",
+      "description": "Vertebral column — lateral",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Illu_vertebral_column.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/vertebral_column_lateral.png"
+    },
+    {
+      "slot": "muscles_front",
+      "layer": "muscles",
+      "view": "anterior",
+      "description": "Muscles — anterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/muscles_front.png"
+    },
+    {
+      "slot": "muscles_back",
+      "layer": "muscles",
+      "view": "posterior",
+      "description": "Muscles — posterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/muscles_back.png"
+    },
+    {
+      "slot": "muscles_side",
+      "layer": "muscles",
+      "view": "lateral",
+      "description": "Muscles — lateral (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/muscles_side.png"
+    },
+    {
+      "slot": "head_face_muscles",
+      "layer": "muscles",
+      "view": "anterior",
+      "description": "Head/face muscles — front + side",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:1106_Front_and_Side_Views_of_the_Muscles_of_Facial_Expressions.jpg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/head_face_muscles.jpg"
+    },
+    {
+      "slot": "muscles_superficial_anterior",
+      "layer": "muscles",
+      "view": "anterior",
+      "description": "Muscles — superficial anterior (atlas)",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Bougle,_Human_muscular_system,_anterior-ca.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/muscles_superficial_anterior.png"
+    },
+    {
+      "slot": "muscles_superficial_posterior",
+      "layer": "muscles",
+      "view": "posterior",
+      "description": "Muscles — superficial posterior (atlas)",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Bougle,_Human_muscular_system,_posterior-ca.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/muscles_superficial_posterior.png"
+    },
+    {
+      "slot": "organs_front",
+      "layer": "organs",
+      "view": "anterior",
+      "description": "Organs — anterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/organs_front.png"
+    },
+    {
+      "slot": "organs_back",
+      "layer": "organs",
+      "view": "posterior",
+      "description": "Organs — posterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/organs_back.png"
+    },
+    {
+      "slot": "organs_side",
+      "layer": "organs",
+      "view": "lateral",
+      "description": "Organs — lateral (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/organs_side.png"
+    },
+    {
+      "slot": "digestive_system",
+      "layer": "organs",
+      "view": "anterior",
+      "description": "Digestive system — full",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Digestive_system_without_labels.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/digestive_system.png"
+    },
+    {
+      "slot": "heart",
+      "layer": "organs",
+      "view": "anterior",
+      "description": "Heart — anterior",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Diagram_of_the_human_heart_(no_labels).svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/heart.png"
+    },
+    {
+      "slot": "internal_organs_full_situs",
+      "layer": "organs",
+      "view": "anterior",
+      "description": "Internal organs — full trunk situs",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Internal_organs.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/internal_organs_full_situs.png"
+    },
+    {
+      "slot": "liver",
+      "layer": "organs",
+      "view": "anterior",
+      "description": "Liver — anterior",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Liver_Diagram.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/liver.png"
+    },
+    {
+      "slot": "lungs",
+      "layer": "organs",
+      "view": "anterior",
+      "description": "Lungs — anterior",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Lungs_diagram_simple.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/lungs.png"
+    },
+    {
+      "slot": "organ_situs_trunk_anterior",
+      "layer": "organs",
+      "view": "anterior",
+      "description": "Trunk viscera — surface projection",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Surface_projections_of_the_organs_of_the_trunk_-_without_labels.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/organ_situs_trunk_anterior.png"
+    },
+    {
+      "slot": "urinary_system",
+      "layer": "organs",
+      "view": "anterior",
+      "description": "Urinary system — kidneys/ureters/bladder",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Urinary_System_Large_Unlabeled.jpg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/urinary_system.jpg"
+    },
+    {
+      "slot": "vessels_front",
+      "layer": "vessels",
+      "view": "anterior",
+      "description": "Vessels — anterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/vessels_front.png"
+    },
+    {
+      "slot": "vessels_back",
+      "layer": "vessels",
+      "view": "posterior",
+      "description": "Vessels — posterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/vessels_back.png"
+    },
+    {
+      "slot": "vessels_side",
+      "layer": "vessels",
+      "view": "lateral",
+      "description": "Vessels — lateral (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/vessels_side.png"
+    },
+    {
+      "slot": "coronary_arteries",
+      "layer": "vessels",
+      "view": "anterior",
+      "description": "Coronary arteries — heart surface",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Coronary_arteries.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/coronary_arteries.png"
+    },
+    {
+      "slot": "nerves_front",
+      "layer": "nerves",
+      "view": "anterior",
+      "description": "Nerves — anterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/nerves_front.png"
+    },
+    {
+      "slot": "nerves_back",
+      "layer": "nerves",
+      "view": "posterior",
+      "description": "Nerves — posterior (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/nerves_back.png"
+    },
+    {
+      "slot": "nerves_side",
+      "layer": "nerves",
+      "view": "lateral",
+      "description": "Nerves — lateral (3D render)",
+      "url": "",
+      "commons_page": "",
+      "license": "user 3D-model render",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/nerves_side.png"
+    },
+    {
+      "slot": "brain_lateral",
+      "layer": "nerves",
+      "view": "lateral",
+      "description": "Brain — lateral",
+      "url": "",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Brain_diagram_without_text.svg",
+      "license": "atlas (see commons_page)",
+      "attach_url": "https://raw.githubusercontent.com/NDR3D/Replicate_Plates/main/plates/brain_lateral.png"
+    }
+  ],
+  "known_gaps": []
+}
